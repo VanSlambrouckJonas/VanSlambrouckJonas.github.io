@@ -282,6 +282,10 @@ html {
     color: rgba(0, 0, 0, 0) !important;
   }
   
+  .w-dyn-list{
+    display: none;
+  }
+  
   .w-code-block {
     margin: unset;
   }
