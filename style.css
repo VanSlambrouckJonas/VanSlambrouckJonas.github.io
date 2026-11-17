@@ -53,7 +53,8 @@ body::before {
   opacity: 0; transition: opacity .3s;
 }
 .nav.is-scrolled::before { opacity: 1; }
-.nav__logo img { width: 40px; height: 40px; }
+.nav__logo { text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: -0.01em; white-space: nowrap; }
+.nav__logo:hover { color: var(--accent); }
 .nav__links { display: flex; align-items: center; gap: 28px; }
 .nav__links a { text-decoration: none; color: var(--muted); font-size: 15px; transition: color .2s; }
 .nav__links a:hover { color: var(--text); }
